@@ -39,6 +39,7 @@ public class CustomerController {
     @GetMapping("/prueba4")
     public List<Customer> prueba4() {
         List<Customer> customers = new ArrayList<>();
+
         Customer a = new Customer();
         a.setFirstname("Aldahir");
         a.setLastname("Alonso");
